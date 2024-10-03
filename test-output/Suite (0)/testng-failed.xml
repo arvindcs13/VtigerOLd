@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="login_check.Login">
+        <methods>
+          <include name="SkipTestCaseonCondition"/>
+          <include name="launch_Browser"/>
+          <include name="SkipTestCaseForcefully"/>
+          <include name="logout_Application"/>
+          <include name="login_Application"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- login_check.Login -->
+      <class name="login_check.Login_actitym">
+        <methods>
+          <include name="launch_Browser"/>
+          <include name="logout_Application"/>
+          <include name="TC1"/>
+          <include name="login_Application"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- login_check.Login_actitym -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
